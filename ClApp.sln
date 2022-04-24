@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6A28484D-7E5B-4C46-8B45-F40C603B76BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClApp", "src\ClApp\ClApp.csproj", "{EC1FC126-C2E6-4452-97B4-770C0411B3E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{2D91F9C8-4612-4134-BFF0-DB5D51EB5AC9}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		Directory.Build.props = Directory.Build.props
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC1FC126-C2E6-4452-97B4-770C0411B3E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC1FC126-C2E6-4452-97B4-770C0411B3E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC1FC126-C2E6-4452-97B4-770C0411B3E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC1FC126-C2E6-4452-97B4-770C0411B3E9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EC1FC126-C2E6-4452-97B4-770C0411B3E9} = {6A28484D-7E5B-4C46-8B45-F40C603B76BD}
+	EndGlobalSection
+EndGlobal
